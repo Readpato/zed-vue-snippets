@@ -1,0 +1,20 @@
+{
+  "basic sfc": {
+    "prefix": "sfc",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "const props = defineprops()",
+      "$0",
+      "</script>",
+      "<template>",
+      "<div></div>",
+      "</template>"
+    ],
+    "description": "log to the console"
+  },
+  "props": {
+    "prefix": "props",
+    "body": ["const { foo } = defineprops<{ foo: string }>()", "$0"],
+    "description": "log to the console"
+  }
+}
